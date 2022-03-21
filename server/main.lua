@@ -10,7 +10,7 @@ end)
 
 RegisterNetEvent('qb-shops:server:RestockShopItems', function(shop)
     if Config.Locations[shop]["products"] ~= nil then 
-        local randAmount = math.random(10, 50)
+        local randAmount = math.random(5, 10)
         for k, v in pairs(Config.Locations[shop]["products"]) do 
             Config.Locations[shop]["products"][k].amount = Config.Locations[shop]["products"][k].amount + randAmount
         end

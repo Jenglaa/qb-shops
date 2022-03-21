@@ -4,7 +4,7 @@ Config.Products = {
     ["normal"] = {
         [1] = {
             name = "tosti",
-            price = 2,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -12,7 +12,7 @@ Config.Products = {
         },
         [2] = {
             name = "water_bottle",
-            price = 2,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -20,7 +20,7 @@ Config.Products = {
         },
         [3] = {
             name = "kurkakola",
-            price = 2,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -28,7 +28,7 @@ Config.Products = {
         },
         [4] = {
             name = "twerks_candy",
-            price = 2,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -36,7 +36,7 @@ Config.Products = {
         },
         [5] = {
             name = "snikkel_candy",
-            price = 2,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -44,7 +44,7 @@ Config.Products = {
         },
         [6] = {
             name = "sandwich",
-            price = 2,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -52,7 +52,7 @@ Config.Products = {
         },
         [7] = {
             name = "beer",
-            price = 7,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -60,7 +60,7 @@ Config.Products = {
         },
         [8] = {
             name = "whiskey",
-            price = 10,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -68,7 +68,7 @@ Config.Products = {
         },
         [9] = {
             name = "vodka",
-            price = 12,
+            price = 200,
             amount = 50,
             info = {},
             type = "item",
@@ -97,6 +97,64 @@ Config.Products = {
             info = {},
             type = "item",
             slot = 12,
+        },
+    },
+    ["burgershot"] = {
+        [1] = {
+            name = "burger-bun",
+            price = 2,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "burger-raw",
+            price = 2,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "burger-tomato",
+            price = 2,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+        [4] = {
+            name = "burger-lettuce",
+            price = 2,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 4,
+        },
+        [5] = {
+            name = "burger-potato",
+            price = 2,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 5,
+        },
+        [6] = {
+            name = "burger-mshakeformula",
+            price = 2,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 6,
+        },
+        [7] = {
+            name = "burger-sodasyrup",
+            price = 2,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 7,
         },
     },
     ["hardware"] = {
@@ -561,7 +619,7 @@ Config.Locations = {
         ["coords"] = {
             [1] = vector3(-1222.77, -907.19, 12.32)
         },
-        ["products"] = Config.Products["normal"],
+        ["products"] = Config.Products["burgershot"],
         ["showblip"] = true,
         ["blipsprite"] = 52
     },
